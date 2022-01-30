@@ -1,0 +1,35 @@
+{"intents": [
+        {"tag": "greeting",
+         "patterns": ["hello", "hey", "hi", "good day","Greetings","what's up?","how is it going?","uwu"],
+         "responses": ["Hello!", "Hey!", "What can i do for you?"]
+        },
+        {"tag": "goodbye",
+         "patterns": ["cya", "See you later", "Goodbye","i am Leaving","Have a Good day","bye","cao","see ya"],
+         "responses": ["Sad to see you go :(", "See you later", "Bye!.", "Goodbye"]
+        },
+        {"tag": "age",
+         "patterns": ["how old", "How old is Panos", "age"],
+         "responses": ["My owner Panos is 21 year's old", "21 Year's old!", "I am 21 year's old!"]
+        },
+        {"tag": "indroduction",
+         "patterns": ["name", "what is your name", "i am"],
+         "responses": ["My name is Panos, nice to meet you!", "I am Panos and i am a robot!", "It's me Panos!"]
+        },
+        {"tag": "thanks",
+         "patterns": ["thank", "Thank you", "That's helpful"],
+         "responses": ["Happy to help!", "Any time!", "My pleasure"]
+        },
+        {"tag": "hours",
+         "patterns": ["What hours are you open?", "What are your hours?", "When are you open?" ],
+         "responses": ["We're open every day 9am-9pm", "Our hours are 9am-9pm every day"]
+        },
+        {"tag": "payments",
+         "patterns": ["Do you take credit cards?", "Do you accept Mastercard?", "Are you cash only?" ],
+         "responses": ["We accept VISA, Mastercard and AMEX", "We accept most major credit cards"]
+        },
+        {"tag": "opentoday",
+         "patterns": ["Are you open today?", "When do you open today?", "What are your hours today?"],
+         "responses": ["We're open every day from 9am-9pm", "Our hours are 9am-9pm every day"]
+        }
+   ]
+}
